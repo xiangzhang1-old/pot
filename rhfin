@@ -1,0 +1,31 @@
+#!/bin/bash
+#Program:
+#	Extract element V_RHFIN (PAW_PBE) from $pot directory
+#Usage:
+#	pot pours $ele1/V_RHFIN into current V_RHFIN.
+#	but, if POTdatabase contains Pb Pb_d entry, then Pb_d instead of Pb is used as ele
+ele1=$1
+SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+pot=$SCRIPTDIR
+# real element name. default to POTdatabase, then first listed folder containing $ele1 char
+ele=`cat ${pot}/POTdatabase | grep "$ele1 " | awk '{printf "%s", $2 }'`
+if [ -z $ele ] ; then
+ ele=`ls $pot/paw_pbe_ustc/ | grep $ele1 |sed -n '1p'` 
+fi
+# pour the V_RHFIN
+if [ -f $pot/paw_pbe_ustc/$ele/V_RHFIN.Z ] ; then 
+   zcat $pot/paw_pbe_ustc/$ele/V_RHFIN.Z 
+elif [ -f $pot/paw_pbe_ustc/$ele/V_RHFIN ] ; then 
+   cat $pot/paw_pbe_ustc/$ele/V_RHFIN 
+elif [ -f $pot/paw_pbe_ustc/$ele/V_RHFIN.gz ] ; then 
+   zcat $pot/paw_pbe_ustc/$ele/V_RHFIN.gz 
+elif [ -f $pot/paw_pbe_ustc/"$ele"_sv/V_RHFIN  ] ; then 
+   cat $pot/paw_pbe_ustc/"$ele"_sv/V_RHFIN 
+elif [ -f $pot/paw_pbe_ustc/"$ele"_sv/V_RHFIN.Z  ] ; then 
+   zcat $pot/paw_pbe_ustc/"$ele"_sv/V_RHFIN.Z 
+elif [ -f $pot/paw_pbe_ustc/"$ele"_sv/V_RHFIN.gz ] ; then 
+   zcat $pot/paw_pbe_ustc/"$ele"_sv/V_RHFIN.gz 
+else
+   echo "pot error: No {$ele} element pseudopotential found! Aborting..."
+   exit 64
+fi

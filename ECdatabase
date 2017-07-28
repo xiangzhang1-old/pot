@@ -1,0 +1,93 @@
+Z       Symbol  Neutral Positive ion
+1       H       []1s1   []
+2       He      []1s2   []1s1
+3       Li      [He] 2s1        []1s2
+4       Be      [He] 2s2        [He] 2s1
+5       B       [He] 2s2 2p1    [He] 2s2
+6       C       [He] 2s2 2p2    [He] 2s2 2p1
+7       N       [He] 2s2 2p3    [He] 2s2 2p2
+8       O       [He] 2s2 2p4    [He] 2s2 2p3
+9       F       [He] 2s2 2p5    [He] 2s2 2p4
+10      Ne      [He] 2s2 2p6    [He] 2s2 2p5
+11      Na      [Ne] 3s1        [He] 2s2 2p6
+12      Mg      [Ne] 3s2        [Ne] 3s1
+13      Al      [Ne] 3s2 3p1    [Ne] 3s2
+14      Si      [Ne] 3s2 3p2    [Ne] 3s2 3p1
+15      P       [Ne] 3s2 3p3    [Ne] 3s2 3p2
+16      S       [Ne]3s2 3p4     [Ne] 3s2 3p3
+17      Cl      [Ne] 3s2 3p5    [Ne] 3s2 3p4
+18      Ar      [Ne] 3s2 3p6    [Ne] 3s2 3p5
+19      K       [Ar] 4s1        [Ne] 3s2 3p6
+20      Ca      [Ar] 4s2        [Ar] 4s1
+21      Sc      [Ar] 3d1 4s2    [Ar] 3d1 4s1
+22      Ti      [Ar] 3d2 4s2    [Ar] 3d2 4s1
+23      V       [Ar] 3d3 4s2    [Ar] 3d4
+24      Cr      [Ar] 3d5 4s1    [Ar] 3d5
+25      Mn      [Ar] 3d5 4s2    [Ar] 3d5 4s1
+26      Fe      [Ar] 3d6 4s2    [Ar] 3d6 4s1
+27      Co      [Ar] 3d7 4s2    [Ar] 3d8
+28      Ni      [Ar] 3d8 4s2    [Ar] 3d9
+29      Cu      [Ar] 3d10 4s1   [Ar] 3d10
+30      Zn      [Ar] 3d10 4s2   [Ar] 3d10 4s1
+31      Ga      [Ar] 3d10 4s2 4p1       [Ar] 3d10 4s2
+32      Ge      [Ar] 3d10 4s2 4p2       [Ar] 3d10 4s2 4p1
+33      As      [Ar] 3d10 4s2 4p3       [Ar] 3d10 4s2 4p2
+34      Se      [Ar] 3d10 4s2 4p4       [Ar] 3d10 4s2 4p3
+35      Br      [Ar] 3d10 4s2 4p5       [Ar] 3d10 4s2 4p4
+36      Kr      [Ar] 3d10 4s2 4p6       [Ar] 3d10 4s2 4p5
+37      Rb      [Kr] 5s1        [Ar] 3d10 4s2 4p6
+38      Sr      [Kr] 5s2        [Kr] 5s1
+39      Y       [Kr] 4d1 5s2    [Kr] 5s2
+40      Zr      [Kr] 4d2 5s2    [Kr] 4d2 5s1
+41      Nb      [Kr] 4d4 5s1    [Kr] 4d4
+42      Mo      [Kr] 4d5 5s1    [Kr] 4d5
+43      Tc      [Kr] 4d5 5s2    [Kr] 4d5 5s1
+44      Ru      [Kr] 4d7 5s1    [Kr] 4d7
+45      Rh      [Kr] 4d8 5s1    [Kr] 4d8
+46      Pd      [Kr] 4d10       [Kr] 4d9
+47      Ag      [Kr] 4d10 5s1   [Kr] 4d10
+48      Cd      [Kr] 4d10 5s2   [Kr] 4d10 5s1
+49      In      [Kr] 4d10 5s2 5p1       [Kr] 4d10 5s2
+50      Sn      [Kr] 4d10 5s2 5p2       [Kr] 4d10 5s2 5p1
+51      Sb      [Kr] 4d10 5s2 5p3       [Kr] 4d10 5s2 5p2
+52      Te      [Kr] 4d10 5s2 5p4       [Kr] 4d10 5s2 5p3
+53      I       [Kr] 4d10 5s2 5p5       [Kr] 4d10 5s2 5p4
+54      Xe      [Kr] 4d10 5s2 5p6       [Kr] 4d10 5s2 5p5
+55      Cs      [Xe] 6s1        [Kr] 4d10 5s2 5p6
+56      Ba      [Xe] 6s2        [Xe] 6s1
+57      La      [Xe] 5d1 6s2    [Xe] 5d2
+58      Ce      [Xe] 4f1 5d1 6s2        [Xe] 4f1 5d2
+59      Pr      [Xe] 4f3 6s2    [Xe] 4f3 6s1
+60      Nd      [Xe] 4f4 6s2    [Xe] 4f4 6s1
+61      Pm      [Xe] 4f5 6s2    [Xe] 4f5 6s1
+62      Sm      [Xe] 4f6 6s2    [Xe] 4f6 6s1
+63      Eu      [Xe] 4f7 6s2    [Xe] 4f7 6s1
+64      Gd      [Xe] 4f7 5d1 6s2        [Xe] 4f7 5d1 6s1
+65      Tb      [Xe] 4f9 6s2    [Xe] 4f9 6s1
+66      Dy      [Xe] 4f10 6s2   [Xe] 4f10 6s1
+67      Ho      [Xe] 4f11 6s2   [Xe] 4f11 6s1
+68      Er      [Xe] 4f12 6s2   [Xe] 4f12 6s1
+69      Tm      [Xe] 4f13 6s2   [Xe] 4f13 6s1
+70      Yb      [Xe] 4f14 6s2   [Xe] 4f14 6s1
+71      Lu      [Xe] 4f14 5d1 6s2       [Xe] 4f14 6s2
+72      Hf      [Xe] 4f14 5d2 6s2       [Xe] 4f14 5d1 6s2
+73      Ta      [Xe] 4f14 5d3 6s2       [Xe] 4f14 5d3 6s1
+74      W       [Xe] 4f14 5d4 6s2       [Xe] 4f14 5d4 6s1
+75      Re      [Xe] 4f14 5d5 6s2       [Xe] 4f14 5d5 6s1
+76      Os      [Xe] 4f14 5d6 6s2       [Xe] 4f14 5d6 6s1
+77      Ir      [Xe] 4f14 5d7 6s2       [Xe] 4f14 5d7 6s1
+78      Pt      [Xe] 4f14 5d9 6s1       [Xe] 4f14 5d9
+79      Au      [Xe] 4f14 5d10 6s1      [Xe] 4f14 5d10
+80      Hg      [Xe] 4f14 5d10 6s2      [Xe] 4f14 5d10 6s1
+81      Tl      [Xe] 4f14 5d10 6s2 6p1  [Xe] 4f14 5d10 6s2
+82      Pb      [Xe] 4f14 5d10 6s2 6p2  [Xe] 4f14 5d10 6s2 6p1
+83      Bi      [Xe] 4f14 5d10 6s2 6p3  [Xe] 4f14 5d10 6s2 6p2
+84      Po      [Xe] 4f14 5d10 6s2 6p4  [Xe] 4f14 5d10 6s2 6p3
+85      At      [Xe] 4f14 5d10 6s2 6p5  [Xe] 4f14 5d10 6s2 6p4
+86      Rn      [Xe] 4f14 5d10 6s2 6p6  [Xe] 4f14 5d10 6s2 6p5
+87      Fr      [Rn] 7s1        [Xe] 4f14 5d10 6s2 6p6
+88      Ra      [Rn] 7s2        [Rn] 7s1
+89      Ac      [Rn] 6d1 7s2    [Rn] 7s2
+90      Th      [Rn] 6d2 7s2    [Rn] 6d2 7s1
+91      Pa      [Rn] 5f2 6d1 7s2        [Rn] 5f2 7s2
+92      U       [Rn] 5f3 6d1 7s2        [Rn] 5f3 7s2
